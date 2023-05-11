@@ -1,0 +1,50 @@
+body {
+  background: url("https://cdn.pixabay.com/photo/2016/07/16/07/16/marketing-1521128_1280.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  margin: 50px auto;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 20px;
+  width: 400px;
+  height: 160px;
+  background-color: black;
+  color: silver;
+}
+img {
+  width: 120px;
+  height: 120px;
+}
+.buisness-card img {
+  float: left;
+}
+.username,
+.job,
+.phone-number,
+.email {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.username {
+  font-size: 20px;
+  padding-left: 175px;
+  text-decoration: underline solid red;
+}
+.job {
+  font-size: 15px;
+  padding-left: 180px;
+}
+.email a,
+.phone-number a {
+  text-decoration: none;
+}
+.email {
+  padding-left: 175px;
+}
+.phone-number {
+  padding-left: 180px;
+}
